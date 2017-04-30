@@ -1,14 +1,29 @@
 /* Lorenz Gerber dv15lgr@cs.umu.se */
 body {
   background-color:  #fff;
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 10px;
+}
+
+h1 {
+  background-color: none;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 header {
-  background-color: darkseagreen;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(background.jpg);
+  background-repeat: repeat-x;
+
 }
 
 nav {
-  background-color: darkseagreen;
+  background-color: olivedrab;
+  border-color: darkseagreen;
 }
 
 article {
@@ -29,4 +44,5 @@ section {
 
 #financial {
   background-color: darkseagreen;
+
 }
