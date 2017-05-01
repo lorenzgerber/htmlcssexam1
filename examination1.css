@@ -3,15 +3,40 @@ body {
   background-color:  #fff;
   margin: 0px;
   padding: 0px;
-  border-spacing: 10px;
 }
 
 h1,
 h2 {
-  background-color: none;
   text-align: center;
   margin: 0px;
-  padding: 0px;
+  padding: 10px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 200px;
+  margin: 0px auto;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  width: 100px;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
 header {
@@ -22,33 +47,26 @@ header {
 
 }
 
-nav {
-  background-color: olivedrab;
-  border-color: darkseagreen;
-}
-
-article {
+#mainpage {
+  padding: 10px;
   background-color: darkseagreen;
 }
 
+article,
 section {
-  background-color: darkseagreen;
-}
-
-table {
-  margin: 0px auto;
 
 }
 
-#presentation {
-  background-color: darkseagreen;
+
+nav {
+  padding: 5px;
+  background-color: olivedrab;
 }
 
-#vision {
-  background-color: darkseagreen;
-}
 
-#financial {
-  background-color: darkseagreen;
-  text-align: center;
+
+footer {
+  padding: 5px;
+  text-align: right;
+  background-color: olivedrab;
 }
