@@ -6,7 +6,8 @@ body {
   border-spacing: 10px;
 }
 
-h1 {
+h1,
+h2 {
   background-color: none;
   text-align: center;
   margin: 0px;
@@ -34,6 +35,11 @@ section {
   background-color: darkseagreen;
 }
 
+table {
+  margin: 0px auto;
+
+}
+
 #presentation {
   background-color: darkseagreen;
 }
@@ -44,5 +50,5 @@ section {
 
 #financial {
   background-color: darkseagreen;
-
+  text-align: center;
 }
