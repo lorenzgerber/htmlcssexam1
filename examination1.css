@@ -1,8 +1,6 @@
 /* Lorenz Gerber dv15lgr@cs.umu.se */
 
-* {
-  font-family: arial, helvetica, sans-serif;
-}
+
 
 body {
   background-color:  #fff;
@@ -67,6 +65,7 @@ tr:nth-child(odd) {
 }
 
 #header h1 {
+  font-family: arial, helvetica, sans-serif;
   text-align: center;
 }
 
@@ -95,9 +94,7 @@ tr:nth-child(odd) {
   padding: 3px 10px;
   text-align: right;
   background-color: #006400;
-  border-bottom: black;
-  border-bottom-style: solid;
-  border-bottom-width: thin;
+  border-bottom: thin solid black;
 }
 
 #footer a {
