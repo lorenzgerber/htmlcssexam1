@@ -1,4 +1,9 @@
 /* Lorenz Gerber dv15lgr@cs.umu.se */
+
+* {
+  font-family: arial, helvetica, sans-serif;
+}
+
 body {
   background-color:  #fff;
   margin: 0px;
@@ -7,7 +12,6 @@ body {
 
 h1,
 h2 {
-  text-align: center;
   margin: 0px;
   padding: 10px;
 }
@@ -27,46 +31,75 @@ table {
   border-collapse: collapse;
 }
 
+
 td,
 th {
   width: 100px;
-  border: 1px solid #dddddd;
+  border: 1px solid #000;
+  padding: 3px;
+}
+
+th {
+  text-align: center;
+}
+
+td.year {
   text-align: left;
-  padding: 8px;
+}
+
+td.amount {
+  text-align: right;
+  font-style: italic;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #C3B091;
 }
 
-header {
+tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+#header {
   margin: 0px;
-  padding: 0px;
   background-image: url(background.jpg);
   background-repeat: repeat-x;
-
 }
 
-#mainpage {
+#header h1 {
+  text-align: center;
+}
+
+#main {
   padding: 10px;
-  background-color: darkseagreen;
+  background-color: #8FBC8F;
 }
 
-article,
-section {
+#main h1,
+#main h2 {
+  font-family: "Times New Roman", Georgia, Serif;
 
 }
 
-
-nav {
+#nav {
   padding: 5px;
-  background-color: olivedrab;
+  background-color: #6B8E23;
+}
+
+#financial h2 {
+  text-align: center
 }
 
 
-
-footer {
-  padding: 5px;
+#footer {
+  padding: 3px 10px;
   text-align: right;
-  background-color: olivedrab;
+  background-color: #006400;
+  border-bottom: black;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+
+#footer a {
+  color: #8FBC8F;
 }
